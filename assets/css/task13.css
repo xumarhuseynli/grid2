@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: aqua;
+    gap: 15px;
+    display: grid;
+    background-color: aqua;
+    grid-template-rows: 40% 40%;
+    grid-template-columns: 20% 20% 20% 20%;
+    height: 400px;
+}
+.box1{
+    background-color: orange;
+    color: blue;
+    font-weight: 600px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+}
